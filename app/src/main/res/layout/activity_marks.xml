@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF6FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              📝"
+            android:textSize="45sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        Marks Management"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                      Enter and view student marks"
+            android:textSize="15sp"
+            android:textColor="#667085"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etMarksSubject"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Subject"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etExamName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Exam Name"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Marks"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pranav Jadhav"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D" />
+
+        <EditText
+            android:id="@+id/etPranavMarks"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter marks"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vedarth Dhepe"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D" />
+
+        <EditText
+            android:id="@+id/etVedarthMarks"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter marks"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pranjal Mane"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D" />
+
+        <EditText
+            android:id="@+id/etPranjalMarks"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter marks"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abhi Rathod"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D" />
+
+        <EditText
+            android:id="@+id/etAbhiMarks"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter marks"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shreya Deshmukh"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D" />
+
+        <EditText
+            android:id="@+id/etShreyaMarks"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter marks"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:id="@+id/btnSaveMarks"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="SAVE MARKS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnViewMarks"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="VIEW SAVED MARKS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvMarksReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:background="@drawable/edittext_background"
+            android:padding="15dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

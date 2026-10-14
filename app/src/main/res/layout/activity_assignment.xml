@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF6FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- HEADER -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📋"
+            android:textSize="45sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assignment Management"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create and manage student assignments"
+            android:textSize="15sp"
+            android:textColor="#667085"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- SUBJECT -->
+
+        <EditText
+            android:id="@+id/etAssignmentSubject"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Subject"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="12dp" />
+
+        <!-- TITLE -->
+
+        <EditText
+            android:id="@+id/etAssignmentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Assignment Title"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="12dp" />
+
+        <!-- DESCRIPTION -->
+
+        <EditText
+            android:id="@+id/etAssignmentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:hint="Enter Assignment Description"
+            android:textSize="15sp"
+            android:gravity="top"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp" />
+
+        <!-- DUE DATE -->
+
+        <TextView
+            android:id="@+id/tvDueDate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="📅 Select Due Date"
+            android:textSize="15sp"
+            android:textColor="#667085"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="20dp" />
+
+        <!-- SAVE -->
+
+        <Button
+            android:id="@+id/btnSaveAssignment"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SAVE ASSIGNMENT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="12dp" />
+
+        <!-- VIEW -->
+
+        <Button
+            android:id="@+id/btnViewAssignments"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="VIEW SAVED ASSIGNMENTS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="25dp" />
+
+        <!-- ASSIGNMENT CARDS -->
+
+        <LinearLayout
+            android:id="@+id/assignmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

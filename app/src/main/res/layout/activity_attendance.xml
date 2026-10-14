@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF6FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📊"
+            android:textSize="45sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Attendance"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvAttendanceDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="15sp"
+            android:textColor="#667085"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etSubject"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Subject"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:padding="15dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Attendance"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:layout_marginBottom="12dp" />
+
+        <CheckBox
+            android:id="@+id/cbStudent1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Pranav Jadhav"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <CheckBox
+            android:id="@+id/cbStudent2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Vedarth Dhepe"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <CheckBox
+            android:id="@+id/cbStudent3"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Pranjal Mane"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <CheckBox
+            android:id="@+id/cbStudent4"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Abhi Rathod"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <CheckBox
+            android:id="@+id/cbStudent5"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Shreya Deshmukh"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:id="@+id/btnSaveAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="SAVE ATTENDANCE"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnViewPercentage"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="VIEW ATTENDANCE %"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvAttendancePercentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:background="@drawable/edittext_background"
+            android:padding="18dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

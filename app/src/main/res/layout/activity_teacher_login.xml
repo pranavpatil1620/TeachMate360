@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#EAF6FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👨‍🏫"
+        android:textSize="50sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher Login"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#172B4D"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to manage your classroom"
+        android:textSize="15sp"
+        android:textColor="#667085"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="35dp"/>
+
+    <EditText
+        android:id="@+id/etTeacherEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:background="@drawable/edittext_background"/>
+
+    <EditText
+        android:id="@+id/etTeacherPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"/>
+
+    <Button
+        android:id="@+id/btnTeacherLogin"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
+        android:text="LOGIN"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"/>
+
+    <TextView
+        android:id="@+id/tvTeacherRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New teacher?  Create Account"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#3155D9"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
